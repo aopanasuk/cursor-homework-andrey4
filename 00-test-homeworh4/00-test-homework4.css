@@ -1,0 +1,318 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+}
+  .section1 {
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        width: 100%;
+        height: 500px;
+        background-color: #ED4C5C;
+    }
+    .block1 {
+        position: absolute;
+        width: 445px;
+        height: 275px;
+        left: 165px;
+        top: 116px;
+        padding: 0px;
+        margin-right: 80px;
+    }
+    .title1 {
+        font-weight: 600;
+        font-size: 36px;
+        color: #FFFFFF;
+        margin-top: 0px;
+        margin-bottom: 25px;
+        line-height: 43px;
+    }
+    .text1 {
+        font-weight: 400;
+        font-size: 14px;
+        color: #FFFFFF;
+        line-height: 140%;
+        text-align: justify;
+    }
+    .logo {
+        margin-top: 40px;
+    }
+    .logo1, .logo2 {
+        width: 32px;
+        height: 32px;
+        margin-right: 23px;
+    }
+    .logo3 {
+        width: 28px;
+        height: 28px;
+    }
+    .photo1 {
+        position: absolute;
+        width: 383px;
+        height: 267px;
+        left: 691px;
+        top: 116px;
+        border-radius: 15px;
+    }
+    .photo2 {
+        position: absolute;
+        width: 383px;
+        height: 267px;
+        left: 841px;
+        top: 116px;
+        border-radius: 15px;
+    }
+    .photo3 {
+        position: absolute;
+        width: 445px;
+        height: 311px;
+        left: 735px;
+        top: 94px;
+        border-radius: 15px;
+    }    
+    .section2 {
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        width: 100%;
+        height: 500px;
+        margin-bottom: 45px;
+    }
+    .contact {
+        position: absolute;
+        width: 445px;
+        height: 160px;
+        left: 176px;
+        top: 117px;
+    }
+    .title2 {
+        width: 445px;
+        height: 107px;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 43px;
+        color: #000000;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .text2 {
+        width: 434px;
+        height: 64px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 140%;
+        text-align: justify;
+        color: #000000;
+        margin: 0px;
+    }
+    .fields {
+        position: absolute;
+        width: 540px;
+        height: 305px;
+        left: 735px;
+        top: 117px;
+    }
+    .in1 {
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        width: 255px;
+        height: 60px;
+        box-sizing: border-box;
+        border: 1px solid #333333;
+        border-radius: 6px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: rgba(19, 39, 67, 0.5);
+        padding-left: 31px;
+    }
+    .in2 {
+        position: absolute;
+        left: 285px;
+        top: 0px;
+        width: 255px;
+        height: 60px;
+        box-sizing: border-box;
+        border: 1px solid #333333;
+        border-radius: 6px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: rgba(19, 39, 67, 0.5);
+        padding-left: 31px;
+    }
+    .in3 {
+        position: absolute;
+        left: 0px;
+        top: 84px;
+        width: 540px;
+        height: 60px;
+        box-sizing: border-box;
+        border: 1px solid #333333;
+        border-radius: 6px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: rgba(19, 39, 67, 0.5);
+        padding-left: 31px;
+    }
+    .in4 {
+        position: absolute;
+        left: 0px;
+        top: 168px;
+        width: 540px;
+        height: 60px;
+        box-sizing: border-box;
+        border: 1px solid #333333;
+        border-radius: 6px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: rgba(19, 39, 67, 0.5);
+        padding-left: 31px;
+    }
+    .click {
+        position: absolute;
+        width: 160px;
+        height: 50px;
+        left: 0px;
+        top: 255px;
+        background-color: #ED4C5C;
+        border: none;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        cursor: pointer;
+        border: none;
+        border-radius: 10px;
+    }
+    .click:hover {
+    background-color: #ED4C5C;
+    opacity: 0.7}
+    
+    /* footer */
+    footer {
+        display: flex;
+        flex-direction: row;
+        position: relative;position: absolute;
+        width: 100%;
+        height: 435px;
+        left: 0px;
+        top: 1045px;
+        background-color: #FAFAFA;
+    }
+    .column1 {
+        position: absolute;
+        width: 259px;
+        height: 264px;
+        left: 161px;
+        top: 85px;
+    }
+    .title3 {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 22px;
+        color: #101010;
+    }
+    .text3 {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 150%;
+        color: #101010;
+    }
+    .patent {
+        margin-top: 141px;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        color: #101010;
+    }
+    .column2 {
+        position: absolute;
+        width: 259px;
+        height: 264px;
+        left: 450px;
+        top: 85px;
+    }
+    .list {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 160%;
+        text-transform: capitalize;
+        color: #000000;}
+        .column3 {
+            position: absolute;
+            width: 259px;
+            height: 264px;
+            left: 734px;
+            top: 85px;
+        }
+        .paragraf1 {
+            margin-bottom: 11px;}
+        
+        .paragraf2 {
+            margin-top: 11px;
+            margin-bottom: 20px;
+        }
+        .mail {
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 14px;
+            color: #101010;
+        }
+        .tel {
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 14px;
+            color: #121212;
+        }
+        .picto {
+          position: relative;
+          width: 66px;
+          height: 14px;
+        }
+        .picto1 {
+            position: absolute;
+            width: 14px;
+            height: 14px;
+            left: 0px;
+            top: 0px;
+        }
+        .picto2 {
+            position: absolute;
+            width: 14px;
+            height: 14px;
+            left: 26px;
+            top: 0;
+        }
+        .picto3 {
+            position: absolute;
+            width: 14px;
+            height: 14px;
+            left: 52px;
+            top: 0px;
+        }
+        .column4 {
+            position: absolute;
+            width: 259px;
+            height: 264px;
+            left: 1022px;
+            top: 85px;
+        }
+        .payment {
+            position: absolute;
+            width: 216px;
+            height: 31px;
+            left: 0px;
+            top: 79px;
+        }
